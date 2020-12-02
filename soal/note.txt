@@ -1,0 +1,77 @@
+Instructions
+1. PENDAHULUAN:
+Untuk tugas pertama, anda diminta mengimplementasikan algoritma tertentu untuk menyelesaikan masalah.
+Ada tiga pilihan tugas berbeda, anda hanya boleh mengerjakan SALAH SATU SAJA!
+Perbedaan meliputi teknik penyelesaian masalah yang digunakan, nilai maksimuman, dan jumlah anggota kelompok.
+Fokus dari setiap tugas adalah menyelesaikan masalah pada permainan:
+A: Rush Hour, yang dapat diselesaikan dengan teknik Informed Search
+B: Knight Through, yang dapat dibuat agen cerdasnya dengan teknik Adversarial Search 
+C: Light-up, yang dapat diselesaikan dengan teknik Local Search
+ 
+2. DESKRIPSI TUGAS:
+A. Rush Hour
+Rush Hour (https://en.wikipedia.org/wiki/Rush_Hour_(puzzle)) adalah sebuah sliding block puzzle yang mungkin sudah pernah anda lihat sebelumnya.
+Anda dapat mencoba game dengan mencari di internet (kebanyakan menggunakan flash) atau di GooglePlay, misalnya https://play.google.com/store/apps/details?id=tync.noparking.
+Tugas anda adalah menyelesaikan puzzle tersebut dengan menggunakan algoritma A* atau Iterative Deepening A*.
+Karena fokus tugas adalah pada strategi dan implementasi dari algoritma penyelesaian masalah, maka anda tidak harus mengimplementasikan game-nya sendiri, misalnya dapat menggunakan kode program yang tersedia di https://www.cs.princeton.edu/courses/archive/fall07/cos402/assignments/rushhour/.
+
+B. Knight Through
+Knight Through adalah sebuah board game yang dimainkan di atas papan catur dengan 8 kuda putih dan 8 kuda hitam.
+Untuk memcoba permainannya, download Ludii player di https://ludii.games/downloads/Ludii-1.1.0.jar dan memilih permainan Knightthrough.
+Tugas anda adalah membuat agen cerdas untuk permainan ini dengan menggunakan platform Ludii.
+Agen cerdas dapat dibuat menggunakan algoritma minimax (dengan alpha-beta pruning) atau MCTS.
+Sebagai petunjuk, dapat melihat resource yang tersedia di https://github.com/DennisSoemers/SerPrunesALot.
+
+C. Light Up
+Light Up atau Akari (https://en.wikipedia.org/wiki/Light_Up_(puzzle)) adalah sebuah logic puzzle yang dapat anda coba mainkan di https://www.puzzle-light-up.com/.
+Tugas anda adalah mengimplementasikan Simulated Annealing atau Algoritma Genetik untuk menyelesaikan puzzle tersebut.
+
+3. YANG HARUS DIKUMPULKAN:
+Kode Program, dilengkapi dengan komentar di (hampir) setiap baris dan cara penggunaannya
+Contoh masukan dan keluaran dalam file teks, kecuali untuk tugas B (karena dikerjakan langsung di platform Ludii)
+Dokumentasi berisi:
+Pendahuluan dan deskripsi masalah: ceritakan sejarah permainan, apa yang hendak dikerjakan pada tugas ini, dan berikan gambaran seperti apa hasil yang diharapkan dari pembuatan agen cerdas ini. Khusus tugas C, harus ada pembahasan mengapa algoritma yang cocok untuk masalah ini adalah local search.  Hal ini berkaitan dengan kompleksitas masalah, jadi perlu dibahas sedikit (cari sumber referensi lain jika perlu). 
+Aturan permainan: detail dan HARUS dilengkapi dengan gambar.
+Detail penyelesaian masalah: algoritma yang dipilih beserta alasannya, cara kerja algoritma, heuristik yang digunakan dan alasannya,  juga jenis parameter apa saja yang digunakan dalam eksperimen.
+Hasil eksperimen: penggunaan parameter membuka peluang untuk dilakukannya eksperimen. Kesimpulan 
+
+4. WAKTU PENGUMPULAN:
+Deadline: 14 Desember 2020 08.00 WIB
+Late Turn In: 4 Januari 2020 08.00 WIB (nilai dikurangi 15%)
+​Deadline: 4 Januari 2020 08.00 WIB
+
+Bonus 10% jika dikumpulkan sebelum 14 Desember 2020 (rencananya tugas ke-2 akan diberikan pada minggu tersebut)
+
+5. ANGGOTA KELOMPOK: 
+Tugas A: 2-3 orang
+Tugas B: 2-3 orang
+Tugas C: 1-2 orang
+
+Anggota kelompok boleh beda kelas
+
+6. PENILAIAN:
+Tugas A: Nilai maksimum 90
+Tugas B: Nilai maksimum 105
+Tugas C: Nilai maksimum 80
+Jika mengumpulkan setelah batas Deadline, nilai dikurangi 15% 
+Secara umum, nilai akan sangat dipengaruhi oleh seberapa banyak bobot pekerjaan (coding) dan strategi penyelesaian masalah (heuristik, fitness function, state value, dll) yang anda buat sendiri 
+
+6a. DOKUMENTASI
+Bobot penilaian antara dokumentasi dan implementasi (termasuk komentar di kode program) adalah 40:60
+Perhatikan bahwa tata tulis dokumentasi akan sangat diperhatikan. Jadi, perhatikan kerapian dokumen, hindari salah tulis, hindari penulisan kalimat/paragraf yang tidak mengikuti PUEBI (Pedoman Umum Ejaan Bahasa Indonesia) ataupun yang tidak jelas maksudnya, pastikan pemaparan suatu hal jelas dan lengkap, ingat bahwa banyak hal bisa dijelaskan dengan lebih baik dengan gambar.
+
+6b. IMPLEMENTASI
+Untuk mendapatkan skor maksimal, ada beberapa hal yang harus anda perhatikan:
+- komentar harus sejelas mungkin, termasuk kegunaan setiap variable penting dan kejelasan dari input-output suatu fungsi
+- menggunakan dan/atau menambahkan heuristik dan fitness function sendiri (yang berkualitas baik)
+- membuat sendiri strategi encoding (tugas C) atau penanganan state berulang (tugas A/B)
+
+
+7. PLAGIARISME
+Algoritma-algoritma yang digunakan untuk ketiga tugas di atas, source code yang siap pakai dapat dicari dengan mudah di internet.
+Yang perlu anda lakukan jika menggunakan source code (atau menjadikannya sebagai contoh) milik orang lain adalah:
+1. menuliskan sumber-sumber di internet yang anda gunakan --> cantumkan di dokumentasi dan di kode program
+2. mengerti apa yang anda kerjakan --> tuliskan komentar di setiap baris program anda, apa yang dilakukan baris tersebut
+Jika anda tidak menuliskan sumber padahal anda menggunakan yang ada di internet, dan kebetulan diketahui, maka nilai akan dikali -1.5
+Demikian juga dengan penggunaan heuristik, penilaian papan, encoding. fitness function, dlsb. 
+Jika anda menggunakan sumber tertentu, cantumkan. 
