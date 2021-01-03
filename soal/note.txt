@@ -13,7 +13,8 @@ A. Rush Hour
 Rush Hour (https://en.wikipedia.org/wiki/Rush_Hour_(puzzle)) adalah sebuah sliding block puzzle yang mungkin sudah pernah anda lihat sebelumnya.
 Anda dapat mencoba game dengan mencari di internet (kebanyakan menggunakan flash) atau di GooglePlay, misalnya https://play.google.com/store/apps/details?id=tync.noparking.
 Tugas anda adalah menyelesaikan puzzle tersebut dengan menggunakan algoritma A* atau Iterative Deepening A*.
-Karena fokus tugas adalah pada strategi dan implementasi dari algoritma penyelesaian masalah, maka anda tidak harus mengimplementasikan game-nya sendiri, misalnya dapat menggunakan kode program yang tersedia di https://www.cs.princeton.edu/courses/archive/fall07/cos402/assignments/rushhour/.
+Karena fokus tugas adalah pada strategi dan implementasi dari algoritma penyelesaian masalah, maka anda tidak harus mengimplementasikan game-nya sendiri, misalnya dapat menggunakan kode
+program yang tersedia di https://www.cs.princeton.edu/courses/archive/fall07/cos402/assignments/rushhour/.
 
 B. Knight Through
 Knight Through adalah sebuah board game yang dimainkan di atas papan catur dengan 8 kuda putih dan 8 kuda hitam.
@@ -30,9 +31,12 @@ Tugas anda adalah mengimplementasikan Simulated Annealing atau Algoritma Genetik
 Kode Program, dilengkapi dengan komentar di (hampir) setiap baris dan cara penggunaannya
 Contoh masukan dan keluaran dalam file teks, kecuali untuk tugas B (karena dikerjakan langsung di platform Ludii)
 Dokumentasi berisi:
-Pendahuluan dan deskripsi masalah: ceritakan sejarah permainan, apa yang hendak dikerjakan pada tugas ini, dan berikan gambaran seperti apa hasil yang diharapkan dari pembuatan agen cerdas ini. Khusus tugas C, harus ada pembahasan mengapa algoritma yang cocok untuk masalah ini adalah local search.  Hal ini berkaitan dengan kompleksitas masalah, jadi perlu dibahas sedikit (cari sumber referensi lain jika perlu). 
+Pendahuluan dan deskripsi masalah: ceritakan sejarah permainan, apa yang hendak dikerjakan pada tugas ini, dan berikan gambaran seperti apa hasil yang diharapkan dari pembuatan agen 
+cerdas ini. Khusus tugas C, harus ada pembahasan mengapa algoritma yang cocok untuk masalah ini adalah local search.  Hal ini berkaitan dengan kompleksitas masalah, jadi perlu dibahas 
+sedikit (cari sumber referensi lain jika perlu). 
 Aturan permainan: detail dan HARUS dilengkapi dengan gambar.
-Detail penyelesaian masalah: algoritma yang dipilih beserta alasannya, cara kerja algoritma, heuristik yang digunakan dan alasannya,  juga jenis parameter apa saja yang digunakan dalam eksperimen.
+Detail penyelesaian masalah: algoritma yang dipilih beserta alasannya, cara kerja algoritma, heuristik yang digunakan dan alasannya,  juga jenis parameter apa saja yang digunakan dalam
+eksperimen.
 Hasil eksperimen: penggunaan parameter membuka peluang untuk dilakukannya eksperimen. Kesimpulan 
 
 4. WAKTU PENGUMPULAN:
@@ -54,11 +58,14 @@ Tugas A: Nilai maksimum 90
 Tugas B: Nilai maksimum 105
 Tugas C: Nilai maksimum 80
 Jika mengumpulkan setelah batas Deadline, nilai dikurangi 15% 
-Secara umum, nilai akan sangat dipengaruhi oleh seberapa banyak bobot pekerjaan (coding) dan strategi penyelesaian masalah (heuristik, fitness function, state value, dll) yang anda buat sendiri 
+Secara umum, nilai akan sangat dipengaruhi oleh seberapa banyak bobot pekerjaan (coding) dan strategi penyelesaian masalah (heuristik, fitness function, state value, dll) yang anda 
+buat sendiri 
 
 6a. DOKUMENTASI
 Bobot penilaian antara dokumentasi dan implementasi (termasuk komentar di kode program) adalah 40:60
-Perhatikan bahwa tata tulis dokumentasi akan sangat diperhatikan. Jadi, perhatikan kerapian dokumen, hindari salah tulis, hindari penulisan kalimat/paragraf yang tidak mengikuti PUEBI (Pedoman Umum Ejaan Bahasa Indonesia) ataupun yang tidak jelas maksudnya, pastikan pemaparan suatu hal jelas dan lengkap, ingat bahwa banyak hal bisa dijelaskan dengan lebih baik dengan gambar.
+Perhatikan bahwa tata tulis dokumentasi akan sangat diperhatikan. Jadi, perhatikan kerapian dokumen, hindari salah tulis, hindari penulisan kalimat/paragraf yang tidak mengikuti PUEBI 
+(Pedoman Umum Ejaan Bahasa Indonesia) ataupun yang tidak jelas maksudnya, pastikan pemaparan suatu hal jelas dan lengkap, ingat bahwa banyak hal bisa dijelaskan dengan lebih baik 
+dengan gambar.
 
 6b. IMPLEMENTASI
 Untuk mendapatkan skor maksimal, ada beberapa hal yang harus anda perhatikan:
